@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@top-gg/sdk": "^3.1.3",
+    "axios": "^0.27.2",
+    "canvas": "^2.9.1",
+    "discord.js": "^13.7.0",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "ms": "^2.1.3",
+    "ms-to": "^1.0.0",
+    "ms-to-hms": "^1.0.0",
+    "node-fetch": "^3.2.6",
+    "node-html-to-image": "^3.2.4",
+    "pg": "^8.7.3",
+    "pg-native": "^3.0.0",
+    "random-with-percentage": "^1.0.1",
+    "string-to-time": "^1.0.6",
+    "superagent": "^7.1.6",
+    "topgg-autoposter": "^2.0.1",
+    "weather-js": "^2.0.0"
+  }
+}

@@ -1,0 +1,179 @@
+[
+    {
+        "type": "admin",
+        "color": "#84B8E7",
+        "libelle": "🔧 Administrateur",
+        "cmds": [
+            {
+                "cmd": "prefix",
+                "desc": "Modifier le prefix du bot sur le serveur.",
+                "template": "`{prefix}prefix <Nouveau Préfix>`"
+            }
+        ]
+    },
+    {
+        "type": "mod",
+        "color": "#84B8E7",
+        "libelle": "🛠️ Modération",
+        "cmds": [
+            {
+                "cmd": "avert",
+                "desc": "Avertir un membre.",
+                "template": "`{prefix}avert <User> <Raison>`"
+            },
+            {
+                "cmd": "avertclear",
+                "desc": "Retirer tous les avertissemnts d'un membre.",
+                "template": "`{prefix}avertclear <User>`"
+            },
+            {
+                "cmd": "avertlist",
+                "desc": "Voir tous les avertissemnts d'un membre.",
+                "template": "`{prefix}avertlist <User>`"
+            },
+            {
+                "cmd": "mute",
+                "desc": "Rendre muet un membre.",
+                "template": "`{prefix}mute <User> <Raison>`"
+            },
+            {
+                "cmd": "tempmute",
+                "desc": "Rendre muet temporairement un membre.",
+                "template": "`{prefix}tempmute <User> <Temps> <Raison>`"
+            },
+            {
+                "cmd": "unmute",
+                "desc": "Rendre la parole d'un membre.",
+                "template": "`{prefix}unmute <User>`"
+            },
+            {
+                "cmd": "kick",
+                "desc": "Expluser un membre.",
+                "template": "`{prefix}kick <User>`"
+            },
+            {
+                "cmd": "ban",
+                "desc": "Bannir un membre.",
+                "template": "`{prefix}ban <User>`"
+            }
+        ]
+    },
+    {
+        "type": "all",
+        "color": "#84B8E7",
+        "libelle": "🏷️ Général",
+        "cmds": [
+            {
+                "cmd": "help",
+                "desc": "Afficher le menu d'aide.",
+                "template": "`{prefix}help`"
+            },
+            {
+                "cmd": "ping",
+                "desc": "Afficher le ping du bot.",
+                "template": "`{prefix}ping`"
+            },
+            {
+                "cmd": "serveurinfo",
+                "desc": "Diverses informations sur le serveur.",
+                "template": "`{prefix}serveurinfo`"
+            },
+            {
+                "cmd": "userinfo",
+                "desc": "Diverses informations sur un membre.",
+                "template": "`{prefix}userinfo`"
+            },
+            {
+                "cmd": "botinfo",
+                "desc": "Diverses informations sur le bot.",
+                "template": "`{prefix}botinfo`"
+            },
+            {
+                "cmd": "meteo",
+                "desc": "Afficher la météo d'une ville.",
+                "template": "`{prefix}meteo <Ville>`"
+            }
+        ]
+    },
+    {
+        "type": "ticket",
+        "color": "#84B8E7",
+        "libelle": "📩 Ticket",
+        "cmds": [
+            {
+                "cmd": "ticket config",
+                "desc": "Configurer le module de ticket.",
+                "template": "`{prefix}ticket config`"
+            },
+            {
+                "cmd": "ticket list",
+                "desc": "Liste de tous les tickets du serveur.",
+                "template": "`{prefix}ticket list`"
+            },
+            {
+                "cmd": "ticket info",
+                "desc": "Informations sur un ticket.",
+                "template": "`{prefix}ticket info <ID>`"
+            },
+            {
+                "cmd": "close",
+                "desc": "Fermer un ticket.",
+                "template": "`{prefix}close`"
+            },
+            {
+                "cmd": "claim",
+                "desc": "Claim un ticket, uniquement le modérateur ayant claim le ticket aura accès a ce dernier.",
+                "template": "`{prefix}claim`"
+            },
+            {
+                "cmd": "serveurlist",
+                "desc": "Liste des serveurs du bot.",
+                "template": "`{prefix}serveurlist`"
+            }
+        ]
+    },
+    {
+        "type": "games",
+        "color": "#84B8E7",
+        "libelle": "🎮 Jeux",
+        "cmds": [
+            {
+                "cmd": "flip",
+                "desc": "Lancez une pièce !",
+                "template": "`{prefix}flip`"
+            },
+            {
+                "cmd": "pfc",
+                "desc": "Jouez au Pierre Feuille Ciseaux avec moi.",
+                "template": "`{prefix}pfc`"
+            }
+        ]
+    },
+    {
+        "type": "dotgame",
+        "color": "#84B8E7",
+        "libelle": "🌲 DOT Aventure\nEn développement, fonctionnalités accessibles.",
+        "cmds": [
+            {
+                "cmd": "start",
+                "desc": "Commence ton aventure !",
+                "template": "`{prefix}start`"
+            },
+            {
+                "cmd": "stop",
+                "desc": "Arrêter l'aventure.",
+                "template": "`{prefix}stop`"
+            },
+            {
+                "cmd": "profil",
+                "desc": "Voir ton profil ou celui de quelqu'un d'autre.",
+                "template": "`{prefix}profil <User>`"
+            },
+            {
+                "cmd": "mine",
+                "desc": "Miner des matériaux.",
+                "template": "`{prefix}mine`"
+            }
+        ]
+    }
+]

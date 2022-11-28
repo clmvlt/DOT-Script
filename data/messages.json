@@ -1,0 +1,55 @@
+{
+    "MissPerms": "Oups 😵‍💫, on dirait bien que tu ne peux pas faire ceci.",
+    "DotMissPerms": "Oh non... 😢 Je n'ai pas les permissions.",
+    "Error": "Oups 😵‍💫, une erreur s'est produite.",
+    "EmbedsFooter": "{guild.name}, {date}",
+    "ModuleOFF": "Oups 😵‍💫, un responsable du serveur a désactivé ce module.",
+    "Confirm": "⁉️ Tapez `CONFIRM` pour valider !",
+    "Users": {
+        "NotFound": "🧐 L'utilisateur est introuvable.",
+        "isMod": "🤬 Cet utilisateur est un modérateur.",
+        "Kicked": "🔨 `{user.tag}` s'est fait expulser.",
+        "Banned": "🔨 `{user.tag}` s'est fait bannir."
+    },
+    "cmd": {
+        "prefix": {
+            "prefixToLong": "Oups 😵‍💫, le préfix choisi est trop long.",
+            "CmdInvalid": "Oups 😵‍💫, la commande est mal écrite.",
+            "NewPrefixOk": "😎 Nouveau préfix : `{prefix}` !"
+        },
+        "avert": {
+            "averted": "😏 {user} vient de se faire avertir. Raison : `{raison}`.",
+            "avertsClear": "{user} s'est fait retirer ses avertissements. 😇"
+        },
+        "mute": {
+            "muted": "😏 {user} vient de se faire mute. Raison : `{raison}`.",
+            "tempmuted": "😏 {user} vient de se faire mute pour une durée de {duree}. Raison : `{raison}`.",
+            "checkTime": "Oups 😵‍💫, Précisez la durée.\nCommande : `{template}`",
+            "unmuted": "{user} s'est fait démute. 😇",
+            "alreadyMuted": "Oups 😵‍💫, Utilisateur déjà muet.",
+            "notMuted": "Oups 😵‍💫, cet utilisateur n'est pas muet."
+        },
+        "ticket": {
+            "CmdInvalid": "Oups 😵‍💫, la commande est mal écrite.\n`{template}`",
+            "config": "📰 Configuration des tickets : https://bot-dot.fr/index.php/ticket",
+            "alreadyClose": "Oups 😵‍💫, ce ticket est déjà fermé.",
+            "ticketNotFound": "Oups 😵‍💫, ticket introuvable.",
+            "noTickets": "Oups 😵‍💫, Aucuns tickets n'ont été créés ici.",
+            "claimed": "😇 {claimer} s'occupera de votre ticket !"
+        }
+    },
+    "dotgame": {
+        "profil": {
+            "alreadyExist": "Oups 😵‍💫, Vous avez déjà créé un profil.",
+            "youDontExist": "Oups 😵‍💫, Vous n'avez pas de profil.",
+            "profilInvalid": "Oups 😵‍💫, Profil introuvable.",
+            "deleted": "Vous avez quitté l'aventure! 😓",
+            "newLevel": "Félication {user} ! Vous montez au niveau {level} ! 🎉"
+        },
+        "mine": {
+            "wait": "Vous êtes fatigué 😴. Attendez 10s entre chaque minage.",
+            "waitTime": "Vous êtes fatigué 😴. Patientez encore {time}.",
+            "gains": "Vous avez miné : **{minage}**"
+        }
+    }
+}
